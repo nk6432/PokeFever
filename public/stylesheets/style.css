@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 36px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #dfebed;
+}
+a {
+  color: #00B7FF;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+body, html {
+  height: 100%;
+}
+.zoom:hover{
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.bg {
+  z-index: -1;
+  background-image: url("/images/bg-index.jpeg");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
